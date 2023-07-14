@@ -7,6 +7,7 @@ const config: StorybookConfig = {
     "@storybook/preset-create-react-app",
     "@storybook/addon-interactions",
     "@storybook/addon-jest",
+    "@storybook/addon-a11y",
   ],
   framework: {
     name: "@storybook/react-webpack5",
@@ -14,6 +15,7 @@ const config: StorybookConfig = {
   },
   docs: {
     autodocs: "tag",
+    defaultName: "Documentation",
   },
   staticDirs: ["../public"],
 };
