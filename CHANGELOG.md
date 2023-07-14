@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/chalharb/snippets/compare/v1.2.0...v1.3.0) (2023-07-14)
+
+
+### Features
+
+* Created resusable Button atom ([aa8b04a](https://github.com/chalharb/snippets/commit/aa8b04aca6a7244d7efc56d4b0834ae4c81db3f9))
+
+
+
 # [1.2.0](https://github.com/chalharb/snippets/compare/v1.1.0...v1.2.0) (2023-07-14)
 
 
