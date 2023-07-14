@@ -7,9 +7,6 @@ const meta = {
   title: "App",
   component: App,
   tags: ["autodocs"],
-  argTypes: {
-    backgroundColor: { control: "color" },
-  },
 } satisfies Meta<typeof App>;
 
 export default meta;

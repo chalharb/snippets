@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
+import Theme from './design/Theme';
+
+const Container = styled.h1`
+  width: 100%;
+  border: ${props => `1px solid ${props.theme.colors.primary}`};
+  background-color: ${props => props.theme.colors.secondary};
+  font-family: ${props => props.theme.fonts.heading};
+  color: ${props => props.theme.colors.white};
+`;
+
+interface HeadingProps {
+  isHeading: boolean;
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Theme>
+      <Container>
+        Hello world
+      </Container>
+    </Theme>
   );
 }
 
